@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./styles/form.module.css";
 
 
 class Form extends React.Component {
@@ -27,13 +28,13 @@ class Form extends React.Component {
     return (
       <>
         <form onSubmit={this.submitForm}>
-          <input
+          <input className={styles.formInput}
             type="text"
             name="search"
             placeholder="введите текст"
             onChange={this.handleChange}
           />
-          <button>Search</button>
+          <button className={styles.formButton}>Search</button>
         </form>
       </>
     );

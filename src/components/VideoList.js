@@ -10,7 +10,6 @@ const VideoList = (props) => {
 
   return (
     <div className={styles.listBlock}>
-      <h1>Все видео по вашему запросу</h1>
       <div className={styles.allVideos}>{allVideos}</div>
     </div>
   );

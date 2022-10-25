@@ -7,7 +7,7 @@ const VideoItem = (props) => {
       width="560"
       height="315"
       src ={"https://www.youtube.com/embed/" + id.videoId}
-      frameBorder="0"
+      frameBorder="20"
       allow="autoplay; encrypted-media"
       allowFullScreen
     ></iframe>
